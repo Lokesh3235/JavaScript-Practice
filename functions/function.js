@@ -20,7 +20,6 @@ function Area(){
 let  area=Area();
 document.getElementById("a").innerHTML= "area of rectangle is :" + area;
 console.log("Area of rectangle is :" + area);
-console.log("Area of rectangle is :" + area);
 //console.log(l); // can not be printed as l is declared as let and its block variable
 //let Len=window.prompt("enter the length");
 //Len=Number(Len);
