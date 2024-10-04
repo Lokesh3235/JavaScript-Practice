@@ -20,17 +20,20 @@ function Area(){
 let  area=Area();
 document.getElementById("a").innerHTML= "area of rectangle is :" + area;
 console.log("Area of rectangle is :" + area);
+console.log("Area of rectangle is :" + area);
 //console.log(l); // can not be printed as l is declared as let and its block variable
 //let Len=window.prompt("enter the length");
 //Len=Number(Len);
 //let wd=window.prompt("enter the width:");
 //wd=Number(wd);
 //let z=Len*wd;
-//console.log("Area is :" + z);
+//console.log("Area is :" + z);///
 
 
 function Sum(a,b){
-    return a+b;
+    console.log("Sum :", a+b)
+    return a+b; // sum
+
 }
 let add=Sum(10,20);
 document.getElementById("s").innerHTML="The sum is: " + add;
